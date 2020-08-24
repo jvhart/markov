@@ -3,7 +3,7 @@ import numpy as np
 from scipy import sparse
 from scipy.sparse.linalg import inv as sp_inv
 
-from markov_services import (
+from .markov_services import (
                         comm_classes,
                         decompose,
                         construct_canonical_matrix,
